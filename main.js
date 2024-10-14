@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }, options);
 
   // Select all sections that should fade in
-  const fadeElements = document.querySelectorAll('.context-matters, .your-community, .learning-hard, .change-ubitqutous, .wellness-challenging, .slow-down, .conflict-inevitable, .success-surprise');
+  const fadeElements = document.querySelectorAll('.context-matters, .your-community, .learning-hard, .change-ubiquitous, .wellness-challenging, .slow-down, .conflict-inevitable, .success-surprise');
 
   fadeElements.forEach(element => {
     observer.observe(element); // Start observing each element
